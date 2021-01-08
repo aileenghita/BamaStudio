@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header-container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0,0;
+    width: 100%;
+    padding: 0;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header-left{
+    margin: 0 30px;
+}
+
+#header-right{
+    margin: 0 30px;
+}
+
+.change-color{
+    background-color:transparent;
+    color: white;
+    border-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.h1{
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#signup-container{
+    width: 350px;
+    height: 220px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: gray;
+}
+
+.button{
+    margin-left: 100px;
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(85, 84, 84);
+}
+
+#footer{
+    width: 100%;
+    background-color: gainsboro;
+    height: 65px;
+}
+
+.footer-text{
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+#sosmed{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.twt{
+    margin-left: 115px;
+    height: 35px;
+}
+
+.ig{
+    margin-left: 10px;
+    height: 30px;
+}
+
+.fb{
+    margin-left: 10px;
+    height: 30px;
+}

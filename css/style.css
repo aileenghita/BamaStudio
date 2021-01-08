@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header-container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0,0;
+    width: 100%;
+    padding: 0;
+    height: 50px;
+   }
+
+#header-left{
+    margin: 0 30px;
+}
+
+#header-right{
+    margin: 0 30px;
+}
+
+.change-color{
+    background-color:transparent;
+    color: white;
+    border-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+#upper-body{
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#upper-body-left{
+    margin-top: -380px;
+    margin-left: 150px; 
+    position: relative;
+    width: 50%;
+    top: 0;
+}
+
+#upper-body-left img{
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+
+#upper-body-left .tas:hover {
+    opacity: 0;
+}
+
+.tas{
+    position: relative;
+    height: 400px;
+    background-color: white;
+}
+
+.hover-img{
+    margin-left: 35px;
+    height: 350px;
+}
+
+#upper-body-left .tas:hover{ 
+    opacity: 0;
+}
+
+#upper-body-right-container{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 50px ;
+    height: 350px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#upper-body-right{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.catalogue{
+    margin-left: 450px;
+    margin-top: 30px;
+    height: 50px;
+    background-color: white;
+    border-color: transparent;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.catalogue:hover{
+    background-color:  rgb(85, 84, 84);
+}
+
+#mid-body{
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#mid-body-left-container{
+    margin: 50px 150px;
+    width: 20%;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+#mid-body-left{
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mid-body-mid-container{
+    margin-left: -50px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 20%;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+#mid-body-mid{
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mid-body-right-container{
+    margin: 30px 120px;
+    width: 20%;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+#mid-body-right{
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.foto{
+    background-color: grey;
+    height: 200px;
+}
+
+.shop-now{
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.shop-now:hover{
+    background-color: rgb(85, 84, 84);
+}
+
+.name{
+    margin-top: -480px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.coming-soon{
+    margin-top: 330px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.banner{
+    margin: 0 0;
+    width: 100%;
+    height: 500px;
+}
+
+#footer{
+    background-color: gainsboro;
+    width: 100%;
+    height: 70px;
+}
+
+.footer-text{
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#sosmed{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.twt{
+    margin-left: 570px;
+    height: 35px;
+}
+
+.ig{
+    margin-left: 10px;
+    height: 30px;
+}
+
+.fb{
+    margin-left: 10px;
+    height: 30px;
+}
